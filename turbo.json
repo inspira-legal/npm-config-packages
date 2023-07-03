@@ -1,10 +1,5 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "globalDependencies": [
-    "**/config-eslint/index.js",
-    "**/config-prettier/index.js",
-    "**/config-tsconfig/*.json"
-  ],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
@@ -12,12 +7,6 @@
     },
     "clean": {
       "cache": false
-    },
-    "lint": {
-      "outputs": []
-    },
-    "test": {
-      "outputs": ["coverage/**"]
     },
     "type-check": {
       "inputs": ["**/*.ts", "**/*.tsx"],

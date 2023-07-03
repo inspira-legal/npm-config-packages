@@ -12,11 +12,9 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Creating .npmrc file
-        run: |
-          cp .npmrc.example .npmrc
-          sed -i "s/INSERT_YOUR_GITHUB_ACCESS_TOKEN_HERE/$NPM_TOKEN/g" .npmrc
+        run: cp .npmrc.dist .npmrc
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set Node.js Version
         uses: actions/setup-node@v3
@@ -29,7 +27,7 @@ jobs:
 
       - name: Create Snapshot Release
         run: |
-          yarn run version-packages --snapshot "${{ github.ref_name }}"
+          yarn run version --snapshot "${{ github.ref_name }}"
           echo '---'
           echo 'Detected Changes:'
           git diff

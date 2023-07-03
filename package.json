@@ -31,11 +31,9 @@
     "lint-fix:packages-format": "syncpack format",
     "lint:mismatches": "syncpack list-mismatches",
     "lint:semver": "syncpack lint-semver-ranges",
-    "prerelease": "yarn run build",
-    "release": "changeset publish",
+    "release": "yarn build && changeset version && changeset publish",
     "test": "turbo run test",
-    "type-check": "turbo run type-check",
-    "version-packages": "changeset version"
+    "type-check": "turbo run type-check"
   },
   "workspaces": [
     "packages/*"

@@ -11,7 +11,8 @@ jobs:
   release:
     name: Releasing
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions:
+      contents: 'write'
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -36,7 +37,6 @@ jobs:
         uses: changesets/action@v1
         with:
           publish: yarn run release
-          version: yarn run version-packages
           commit: 'chore: release package(s)'
           title: 'chore: release package(s)'
         env:

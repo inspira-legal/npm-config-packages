@@ -19,7 +19,7 @@
     "test": {
       "outputs": ["coverage/**"]
     },
-    "types:check": {
+    "type-check": {
       "inputs": ["**/*.ts", "**/*.tsx"],
       "outputs": []
     }

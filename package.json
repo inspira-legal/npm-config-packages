@@ -36,7 +36,7 @@
     "prerelease": "yarn run build",
     "release": "changeset publish",
     "test": "turbo run test",
-    "types:check": "turbo run types:check",
+    "type-check": "turbo run type-check",
     "version-packages": "changeset version"
   },
   "workspaces": [

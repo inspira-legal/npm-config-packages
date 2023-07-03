@@ -5,5 +5,8 @@
     "tsconfig.json"
   ],
   "license": "MIT",
-  "main": "tsconfig.json"
+  "main": "tsconfig.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

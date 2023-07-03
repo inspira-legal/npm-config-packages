@@ -2,5 +2,8 @@
   "name": "prettier-config",
   "version": "0.1.0",
   "license": "MIT",
-  "main": ".prettierrc.json"
+  "main": ".prettierrc.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

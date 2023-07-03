@@ -4,6 +4,9 @@
   "dependencies": {
     "cspell-dict-pt-br": "1.1.1"
   },
+  "license": "MIT",
   "main": "cspell.json",
-  "license": "MIT"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

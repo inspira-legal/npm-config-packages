@@ -1,0 +1,102 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "standard",
+    "eslint:recommended",
+    "prettier",
+    "plugin:@cspell/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "@cspell",
+    "@typescript-eslint",
+    "prettier",
+    "import",
+    "@typescript-eslint",
+    "import",
+    "no-relative-import-paths",
+    "@cspell"
+  ],
+  "rules": {
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "semi": ["error", "never"],
+    "quotes": ["error", "single"],
+    "no-underscore-dangle": "off",
+    "import/prefer-default-export": "off",
+    "import/named": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off",
+    "space-before-function-paren": "off",
+    "@cspell/spellchecker": "warn",
+    "@typescript-eslint/no-empty-function": [
+      "error",
+      {
+        "allow": ["arrowFunctions"]
+      }
+    ],
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "multiline-ternary": "off",
+    "no-use-before-define": "off",
+    "no-relative-import-paths/no-relative-import-paths": [
+      "error",
+      {
+        "allowSameFolder": false,
+        "rootDir": "src",
+        "prefix": "@"
+      }
+    ],
+    "import/no-relative-packages": "error",
+    "import/no-relative-parent-imports": "error",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "warnOnUnassignedImports": false,
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          "parent",
+          "sibling",
+          "index",
+          "object",
+          "type"
+        ],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "@test/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "@mui/**",
+            "group": "builtin",
+            "position": "before"
+          },
+          {
+            "pattern": "@/**",
+            "group": "internal"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"]
+      }
+    ]
+  }
+}

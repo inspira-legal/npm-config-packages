@@ -1,10 +1,9 @@
 {
   "name": "tsconfig-config",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "files": [
     "tsconfig.json"
   ],
   "license": "MIT",
-  "main": "tsconfig.json",
-  "private": true
+  "main": "tsconfig.json"
 }

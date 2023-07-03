@@ -18,8 +18,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Creating .npmrc file
-        run: cp .npmrc.dist .npmrc
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+          EOF
 
       - name: Set Node.js Version
         uses: actions/setup-node@v3

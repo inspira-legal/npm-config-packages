@@ -7,14 +7,18 @@ jobs:
   snapshot:
     name: Snapshot Release
     runs-on: ubuntu-latest
+    permissions: write-all
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Creating .npmrc file
-        run: cp .npmrc.dist .npmrc
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Creating .npmrc
+        run: |
+          cat << EOF > "$HOME/.npmrc"
+            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+          EOF
 
       - name: Set Node.js Version
         uses: actions/setup-node@v3

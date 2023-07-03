@@ -12,14 +12,14 @@ jobs:
     name: Releasing
     runs-on: ubuntu-latest
     permissions: write-all
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Creating .npmrc file
         run: cp .npmrc.dist .npmrc
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set Node.js Version
         uses: actions/setup-node@v3
@@ -37,5 +37,3 @@ jobs:
           publish: yarn release
           commit: 'chore: release package(s)'
           title: 'Release package(s)'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

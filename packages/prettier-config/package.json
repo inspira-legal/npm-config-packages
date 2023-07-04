@@ -1,5 +1,5 @@
 {
-  "name": "prettier-config",
+  "name": "@inspira/prettier-config",
   "version": "0.2.0",
   "license": "MIT",
   "main": ".prettierrc.json",

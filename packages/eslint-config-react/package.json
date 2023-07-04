@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-react",
+  "name": "@inspira/eslint-config-react",
   "version": "0.2.0",
   "dependencies": {
     "@cspell/eslint-plugin": "6.31.1",

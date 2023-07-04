@@ -1,5 +1,5 @@
 {
-  "name": "@inspira/cspell-config",
+  "name": "@inspira-legal/cspell-config",
   "version": "0.2.0",
   "dependencies": {
     "cspell-dict-pt-br": "1.1.1"

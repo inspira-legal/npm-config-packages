@@ -1,5 +1,5 @@
 {
-  "name": "@inspira/tsconfig-config",
+  "name": "@inspira-legal/tsconfig-config",
   "version": "0.2.0",
   "files": [
     "tsconfig.json"

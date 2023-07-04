@@ -24,7 +24,7 @@ jobs:
           node-version-file: '.nvmrc'
           cache: 'yarn'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@inspira'
+          scope: '@inspira-legal'
 
       - name: Install Dependencies
         run: yarn install --frozen-lockfile --prefer-offline

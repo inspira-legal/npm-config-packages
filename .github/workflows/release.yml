@@ -13,22 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-
-      - name: Creating .npmrc
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
-          EOF
 
       - name: Set Node.js Version
         uses: actions/setup-node@v3
         with:
           node-version-file: '.nvmrc'
           cache: 'yarn'
+          registry-url: 'https://npm.pkg.github.com'
+          scope: '@inspira'
 
       - name: Install Dependencies
         run: yarn install --frozen-lockfile --prefer-offline
@@ -40,3 +36,5 @@ jobs:
           version: yarn changeset:version
           commit: 'chore: release package(s)'
           title: 'Release package(s)'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

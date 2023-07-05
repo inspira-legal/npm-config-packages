@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 0.3.0
+
+### Minor Changes
+
+- 72736dc: Update packages linting and formating rules
+
 ## 0.2.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # cspell-config
 
+## 0.2.1
+
+### Patch Changes
+
+- a20fef4: Rename packages
+
 ## 0.2.0
 
 ### Minor Changes

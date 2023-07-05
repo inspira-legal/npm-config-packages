@@ -1,11 +1,8 @@
 {
-  "name": "@inspira-legal/tsconfig-config",
+  "name": "@inspira-legal/prettier",
   "version": "0.2.0",
-  "files": [
-    "tsconfig.json"
-  ],
   "license": "MIT",
-  "main": "tsconfig.json",
+  "main": ".prettierrc.json",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   }

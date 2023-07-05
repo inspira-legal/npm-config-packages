@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 0.4.0
+
+### Minor Changes
+
+- ef8e99e: Turn off dot notation lint rule
+
 ## 0.3.0
 
 ### Minor Changes

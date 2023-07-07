@@ -5,10 +5,10 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "prettier",
+    "plugin:prettier/recommended",
     "plugin:@cspell/recommended"
   ],
-  "plugins": ["@typescript-eslint", "prettier", "@cspell", "no-relative-import-paths", "import"],
+  "plugins": ["@typescript-eslint", "@cspell", "no-relative-import-paths", "import"],
   "rules": {
     "no-useless-constructor": "off",
     "no-underscore-dangle": "off",

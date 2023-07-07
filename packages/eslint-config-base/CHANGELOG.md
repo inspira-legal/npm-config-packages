@@ -1,5 +1,12 @@
 # eslint-config-base
 
+## 0.5.0
+
+### Minor Changes
+
+- a5e4936: Fix prettier eslint config
+- be50960: Add sort imports rule
+
 ## 0.4.0
 
 ### Minor Changes

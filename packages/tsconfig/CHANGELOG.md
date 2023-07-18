@@ -1,5 +1,11 @@
 # tsconfig-config
 
+## 0.3.0
+
+### Minor Changes
+
+- 3c7c278: Update tsconfig
+
 ## 0.2.1
 
 ### Patch Changes

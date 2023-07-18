@@ -11,12 +11,12 @@ const config = {
         'eslint-config-base',
         'eslint-config-react',
         'prettier-config',
-        'tsconfig-config'
+        'tsconfig-config',
       ],
       packages: ['**'],
       dependencyTypes: ['dev'],
-      pinVersion: '*'
-    }
+      pinVersion: '*',
+    },
   ],
   sortAz: [
     'contributors',
@@ -25,8 +25,8 @@ const config = {
     'dependencies',
     'peerDependencies',
     'devDependencies',
-    'resolutions'
-  ]
+    'resolutions',
+  ],
 }
 
 module.exports = config

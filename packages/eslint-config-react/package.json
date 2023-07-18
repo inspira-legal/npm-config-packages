@@ -1,6 +1,6 @@
 {
   "name": "@inspira-legal/eslint-config-react",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "dependencies": {
     "@cspell/eslint-plugin": "6.31.1",
     "@typescript-eslint/eslint-plugin": "5.61.0",

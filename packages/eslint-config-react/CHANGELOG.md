@@ -1,5 +1,11 @@
 # eslint-config-react
 
+## 1.0.0
+
+### Major Changes
+
+- 1893f82: Remove base config, keep only react related config
+
 ## 0.2.0
 
 ### Minor Changes

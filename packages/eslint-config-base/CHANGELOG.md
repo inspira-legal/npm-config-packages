@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 1.0.0
+
+### Major Changes
+
+- cc150e5: Upgrade dependencies
+
 ## 0.5.1
 
 ### Patch Changes

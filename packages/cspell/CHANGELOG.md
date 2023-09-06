@@ -1,5 +1,11 @@
 # cspell-config
 
+## 0.3.0
+
+### Minor Changes
+
+- cc150e5: Upgrade dependencies
+
 ## 0.2.1
 
 ### Patch Changes

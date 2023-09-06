@@ -1,5 +1,11 @@
 # prettier-config
 
+## 0.4.0
+
+### Minor Changes
+
+- cc150e5: Upgrade dependencies
+
 ## 0.3.0
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # eslint-config-react
 
+## 2.0.0
+
+### Major Changes
+
+- cc150e5: Upgrade dependencies
+
 ## 1.0.0
 
 ### Major Changes

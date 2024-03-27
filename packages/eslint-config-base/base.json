@@ -28,6 +28,13 @@
         "allow": ["arrowFunctions"]
       }
     ],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports",
+        "disallowTypeAnnotations": false
+      }
+    ],
     "import/named": "off",
     "import/prefer-default-export": "off",
     "import/no-named-as-default": "off",

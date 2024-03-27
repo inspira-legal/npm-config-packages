@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 2.0.0
+
+### Major Changes
+
+- c9d07b7: Update dependencies
+
 ## 1.0.0
 
 ### Major Changes

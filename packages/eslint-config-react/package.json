@@ -1,6 +1,6 @@
 {
   "name": "@inspira-legal/eslint-config-react",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "dependencies": {
     "eslint-plugin-jsx-a11y": "6.9.0",
     "eslint-plugin-react": "7.35.0",

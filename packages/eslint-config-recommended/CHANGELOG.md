@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 3.0.0
+
+### Major Changes
+
+- 1d16b03: Upgrade packages and migrate to eslint 9
+
 ## 2.0.0
 
 ### Major Changes

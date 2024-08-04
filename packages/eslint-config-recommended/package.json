@@ -1,6 +1,6 @@
 {
   "name": "@inspira-legal/eslint-config-recommended",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "dependencies": {
     "@cspell/eslint-plugin": "8.13.1",
     "eslint-config-prettier": "9.1.0"

@@ -1,5 +1,11 @@
 # eslint-config-react
 
+## 4.1.0
+
+### Minor Changes
+
+- f160869: Add jsxA11y and react-refresh plugin
+
 ## 4.0.0
 
 ### Major Changes

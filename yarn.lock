@@ -522,7 +522,7 @@
   resolved "https://registry.yarnpkg.com/@cspell/dict-powershell/-/dict-powershell-5.0.5.tgz#3319d2fbad740e164a78386d711668bfe335c1f2"
   integrity sha512-3JVyvMoDJesAATYGOxcUWPbQPUvpZmkinV3m8HL1w1RrjeMVXXuK7U1jhopSneBtLhkU+9HKFwgh9l9xL9mY2Q==
 
-"@cspell/dict-pt-br@^2.3.0":
+"@cspell/dict-pt-br@2.3.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@cspell/dict-pt-br/-/dict-pt-br-2.3.0.tgz#925036f09c52b345da4eb8a2a97fe53c7c07c9b2"
   integrity sha512-SUR0xlvcKrNyAXwex1E0Qz4xQ+XZO/pkRSWb9ZHEHCJjGoJgs3j0e0inwX4JvcYUOPisLwh4W2NTKWr+a0NR1w==

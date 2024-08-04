@@ -18,7 +18,7 @@ registry=https://registry.npmjs.org
 //npm.pkg.github.com/:_authToken=<ACCESS_TOKEN>
 ```
 
-> Lembrando que esse arquivo *deve* estar listado no `.gitignore`.
+> Lembrando que esse arquivo _deve_ estar listado no `.gitignore`.
 
 E ta pronto o sorvetinho! Agora comandos como `yarn add -D @inspira-legal/<pacote>` já devem funcionar :)
 

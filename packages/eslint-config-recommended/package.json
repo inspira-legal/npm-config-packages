@@ -1,0 +1,22 @@
+{
+  "name": "@inspira-legal/eslint-config-recommended",
+  "version": "2.0.0",
+  "dependencies": {
+    "@cspell/eslint-plugin": "8.13.1",
+    "eslint-config-prettier": "9.1.0"
+  },
+  "devDependencies": {
+    "eslint": "9.8.0",
+    "syncpack": "12.4.0",
+    "turbo": "2.0.11"
+  },
+  "license": "MIT",
+  "main": "eslint.config.mjs",
+  "peerDependencies": {
+    "@cspell/eslint-plugin": "8.13.1",
+    "eslint": "9.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

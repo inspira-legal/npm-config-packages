@@ -6,25 +6,21 @@ const config = {
   versionGroups: [
     {
       label: 'Internal config packages should be pinned to "*" (meaning any version is acceptable)',
-      dependencies: [
-        'cspell-config',
-        'eslint-config-base',
-        'eslint-config-react',
-        'prettier-config',
-        'tsconfig-config',
-      ],
+      dependencies: ['@inspira-legal/*'],
       packages: ['**'],
       dependencyTypes: ['dev'],
       pinVersion: '*',
     },
   ],
   sortAz: [
-    'contributors',
+    'bin',
+    'main',
     'keywords',
+    'contributors',
     'scripts',
     'dependencies',
-    'peerDependencies',
     'devDependencies',
+    'peerDependencies',
     'resolutions',
   ],
 }

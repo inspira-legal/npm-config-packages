@@ -1,6 +1,6 @@
 {
   "name": "@inspira-legal/eslint-config-typescript",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "devDependencies": {
     "eslint": "9.15.0",
     "syncpack": "13.0.0",

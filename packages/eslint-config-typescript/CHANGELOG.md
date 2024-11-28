@@ -1,5 +1,11 @@
 # eslint-config-base
 
+## 3.1.0
+
+### Minor Changes
+
+- 9c39909: Upgrade dependencies
+
 ## 3.0.0
 
 ### Major Changes

@@ -1,5 +1,11 @@
 # eslint-config-react
 
+## 4.2.0
+
+### Minor Changes
+
+- 9c39909: Upgrade dependencies
+
 ## 4.1.0
 
 ### Minor Changes
